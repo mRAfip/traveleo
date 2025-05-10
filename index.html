@@ -20,96 +20,105 @@
 
 </head>
 <body>
-<header class="custom-header" style="background: #fff;">
-  <!-- Top Bar -->
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <i class="bi bi-envelope"></i> contactinfo@gmail.com &nbsp; | &nbsp;
-      <i class="bi bi-telephone"></i> +8 (378) 389 092
-    </div>
-    <div class="top-bar-right">
-      Follow Us On:
-      <i class="bi bi-facebook right-border"></i>
-      <i class="bi bi-twitter right-border"></i>
-      <i class="bi bi-linkedin right-border"></i>
-      <i class="bi bi-instagram"></i>
-    </div>
-  </div>
-
-  <!-- Navbar -->
-  <nav class="custom-navbar">
-    <div class="navbar-container">
-      <a class="navbar-brand" href="#">
-        <img src="logo/1.png" alt="Tripset Logo" height="30" />
-      </a>
-
-      <button class="navbar-toggle" id="navbar-toggle">
-        &#9776;
-      </button>
-
-      <div class="navbar-menu" id="navbar-menu">
-        <ul class="navbar-nav">
-          <li><a class="nav-link active" href="#">Home</a></li>
-          <li><a class="nav-link" href="#">About</a></li>
-          <li><a class="nav-link" href="#">Packages</a></li>
-          <li><a class="nav-link" href="#">Services</a></li>
-          <li><a class="nav-link" href="#">Contact</a></li>
-          <li><a class="nav-link" href="#">Career</a></li>
-        </ul>
-        <a href="#" class="btn-navbar">Contact Us</a>
+  <header class="position-relative overflow-hidden" style="height: 100vh; background: #fff;">
+  
+    <!-- Top Bar -->
+    <div class="top-bar d-none d-sm-flex container py-3 justify-content-between">
+      <div>
+        <i class="bi bi-envelope"></i> contactinfo@gmail.com
+        &nbsp; | &nbsp;
+        <i class="bi bi-telephone"></i> +8 (378) 389 092
+      </div>
+      <div class="topbar-left">
+        Follow Us On:
+        <i class="bi bi-facebook right-border"></i>
+        <i class="bi bi-twitter right-border"></i>
+        <i class="bi bi-linkedin right-border"></i>
+        <i class="bi bi-instagram"></i>
       </div>
     </div>
-  </nav>
-</header>
-
-
-<!-- Hero Section -->
-<section class="hero d-flex align-items-center position-relative" style="height: calc(100vh - 120px); background: #fff;">
-  <!-- Orbit SVG at Bottom-Right -->
-  <div class="svg-div">
-    <svg width="1500" height="1500" viewBox="0 0 300 300" fill="none">
-      <circle cx="150" cy="150" r="100" stroke="#0E8281" stroke-width="0.5" />
-      <circle cx="150" cy="150" r="70" stroke="#0E8281" stroke-width="0.5" />
-      <circle cx="150" cy="150" r="40" stroke="#0E8281" stroke-width="0.5" />
-      <circle cx="150" cy="50" r="2" fill="#0E8281" />
-      <circle cx="220" cy="150" r="2" fill="#0E8281" />
-      <circle cx="150" cy="250" r="2" fill="#0E8281" />
-      <circle cx="80" cy="150" r="2" fill="#0E8281" />
-    </svg>
-  </div>
-
-  <div class="container position-relative" style="z-index: 2;">
-    <div class="row align-items-center">
-      <!-- Text Column -->
-      <div class="col-lg-5 d-flex flex-column justify-content-center">
-        <h1 class="hero-main-head">Making The World Your Playground</h1>
-        <p class="text-muted fs-5 hero-para">
-          Unrivaled expertise for unique travel experiences.<br />
-          We’re here to take you there — dream travels await.
-        </p>
-        <div class="d-flex button-hero-grp gap-3 mt-4">
-          <a href="#" class="btn btn-primary btn-lg rounded-pill px-4 py-3 btn-solid-hero">Let's Explore</a>
-          <a href="#" class="btn btn-outline-dark btn-lg rounded-pill px-4 py-3 btn-solid-hero-outline">Our Packages</a>
+  
+    <!-- Navbar -->
+    <nav class="navbar container navbar-expand-lg bg-white px-3">
+      <div class="d-flex w-100 align-items-center justify-content-between">
+        <!-- Logo Left -->
+        <a class="navbar-brand d-flex align-items-center me-auto" href="#">
+          <img src="logo/1.png" alt="Tripset Logo" height="30" />
+        </a>
+  
+        <!-- Menu Center -->
+        <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Packages</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+          </ul>
         </div>
+  
+        <!-- Button Right -->
+        <button class="btn-navbar btn btn-outline-dark ms-3 d-none d-lg-block">Contact Us</button>
+  
+        <!-- Toggler -->
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-
-      <!-- Image Column -->
-      <div class="col-lg-7 text-center position-relative mt-5 mt-lg-0" style="z-index: 2;">
-        <img src="./assets/images/banner.avif" alt="Traveler Girl" class="img-fluid hero-img" style="max-height: 650px; width: 100%; object-fit: contain;" />
-        <!-- Optional Badge -->
-        <div class="position-absolute top-0 translate-middle-x mt-3" style="left: 20%;">
-          <div class="bg-white rounded-4 px-4 py-3 shadow-sm text-center" style="width: 120px;">
-            <div class="mx-auto mb-2 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #ecfcfb; width: 48px; height: 48px;">
-              <i class="fi fi-rs-badget-check-alt icon-badge"></i>
+    </nav>
+  
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center position-relative" style="height: calc(100vh - 120px);"> <!-- Adjust based on top-bar + navbar height -->
+      
+      <!-- Orbit SVG at Bottom-Right -->
+      <div class="svg-div">
+        <svg width="1500" height="1500" viewBox="0 0 300 300" fill="none">
+          <circle cx="150" cy="150" r="100" stroke="#0E8281" stroke-width="0.5" />
+          <circle cx="150" cy="150" r="70" stroke="#0E8281" stroke-width="0.5" />
+          <circle cx="150" cy="150" r="40" stroke="#0E8281" stroke-width="0.5" />
+          <circle cx="150" cy="50" r="2" fill="#0E8281" />
+          <circle cx="220" cy="150" r="2" fill="#0E8281" />
+          <circle cx="150" cy="250" r="2" fill="#0E8281" />
+          <circle cx="80" cy="150" r="2" fill="#0E8281" />
+        </svg>
+      </div>
+  
+      <div class="container position-relative" style="z-index: 2;">
+        <div class="row align-items-center">
+          <!-- Text Column -->
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h1 class="hero-main-head">Making The World Your Playground</h1>
+            <p class="text-muted fs-5 hero-para">
+              Unrivaled expertise for unique travel experiences.<br />
+              We’re here to take you there — dream travels await.
+            </p>
+            <div class="d-flex button-hero-grp gap-3 mt-4">
+              <a href="#" class="btn btn-primary btn-lg rounded-pill px-4 py-3 btn-solid-hero">Let's Explore</a>
+              <a href="#" class="btn btn-outline-dark btn-lg rounded-pill px-4 py-3 btn-solid-hero-outline">Our Packages</a>
             </div>
-            <div class="fw-bold text-dark fs-4 mb-0">100%</div>
-            <div class="text-muted small">Verified</div>
+          </div>
+  
+          <!-- Image Column -->
+          <div class="col-lg-7 text-center position-relative mt-5 mt-lg-0" style="z-index: 2;">
+            <img src="./assets/images/banner.avif" alt="Traveler Girl" class="img-fluid hero-img" style="max-height: 650px; width: 100%; object-fit: contain;" />
+  
+            <!-- Optional Badge -->
+            <div class="position-absolute top-0 translate-middle-x mt-3" style="left: 20%;">
+              <div class="bg-white rounded-4 px-4 py-3 shadow-sm text-center" style="width: 120px;">
+                <div class="mx-auto mb-2 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #ecfcfb; width: 48px; height: 48px;">
+                  <i class="fi fi-rs-badget-check-alt icon-badge"></i>
+                </div>
+                <div class="fw-bold text-dark fs-4 mb-0">100%</div>
+                <div class="text-muted small">Verified</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+  
+    </section>
+  </header>
 
 
 
