@@ -1,0 +1,36 @@
+
+:root {
+  --background-color: #ecfcfb;
+  --primary-color: #0E8281;
+  --white-color:#fff;
+
+}
+
+.text-orange {
+  color: var(--primary-color);
+}
+
+.btn-orange {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-outline-orange {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-orange:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}

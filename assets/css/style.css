@@ -32,7 +32,7 @@ body {
   
   .top-bar {
 
-    background-color: var(--white-color);
+    background-color: transparent;
     padding: 5px 0;
     color: var(--primary-color);
   }
@@ -94,7 +94,6 @@ body {
   .hero {
     background-color: var(--white-color);
     overflow: hidden !important;
-    height: 100vh !important;
   }
 
   
