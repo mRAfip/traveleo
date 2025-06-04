@@ -12,6 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
 
 
  <!-- Swiper CSS -->
@@ -20,7 +21,7 @@
 
 </head>
 <body>
-  <header class="position-relative overflow-hidden" style="height: 100vh; background: #FFF4EF;">
+  <header class="position-relative overflow-hidden" style="height: 100vh; background: #fff9eb;">
   
     <!-- Top Bar -->
     <div class="top-bar d-none d-sm-flex container py-3 justify-content-between">
@@ -31,10 +32,10 @@
       </div>
       <div class="topbar-left">
         Follow Us On:
-        <i class="bi bi-facebook right-border"></i>
-        <i class="bi bi-twitter right-border"></i>
-        <i class="bi bi-linkedin right-border"></i>
-        <i class="bi bi-instagram"></i>
+        <a class="social"><i class="bi bi-facebook right-border"></i></a>
+        <a class="social"><i class="bi bi-twitter right-border"></i></a>
+        <a class="social"><i class="bi bi-linkedin right-border"></i></a>
+        <a class="social" href="https://www.instagram.com/traveleo_tourism"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
   
@@ -69,18 +70,18 @@
     </nav>
   
     <!-- Hero Section -->
-    <section class="hero d-flex align-items-center position-relative" style="height:100vh; background-color: #FFF4EF;"> <!-- Adjust based on top-bar + navbar height -->
+    <section class="hero d-flex align-items-center position-relative" style="height:100vh; background-color: #fff9eb;"> <!-- Adjust based on top-bar + navbar height -->
       
       <!-- Orbit SVG at Bottom-Right -->
       <div class="svg-div">
         <svg width="1500" height="1500" viewBox="0 0 300 300" fill="none">
-          <circle cx="150" cy="150" r="100" stroke="#0E8281" stroke-width="0.5" />
-          <circle cx="150" cy="150" r="70" stroke="#0E8281" stroke-width="0.5" />
-          <circle cx="150" cy="150" r="40" stroke="#0E8281" stroke-width="0.5" />
-          <circle cx="150" cy="50" r="2" fill="#0E8281" />
-          <circle cx="220" cy="150" r="2" fill="#0E8281" />
-          <circle cx="150" cy="250" r="2" fill="#0E8281" />
-          <circle cx="80" cy="150" r="2" fill="#0E8281" />
+          <circle cx="150" cy="150" r="100" stroke="#FEC84A" stroke-width="0.5" />
+          <circle cx="150" cy="150" r="70" stroke="#FEC84A" stroke-width="0.5" />
+          <circle cx="150" cy="150" r="40" stroke="#FEC84A" stroke-width="0.5" />
+          <circle cx="150" cy="50" r="2" fill="#FEC84A" />
+          <circle cx="220" cy="150" r="2" fill="#FEC84A" />
+          <circle cx="150" cy="250" r="2" fill="#FEC84A" />
+          <circle cx="80" cy="150" r="2" fill="#FEC84A" />
         </svg>
       </div>
   
@@ -106,7 +107,7 @@
             <!-- Optional Badge -->
             <div class="position-absolute top-0 translate-middle-x mt-3" style="left: 20%;">
               <div class="bg-white rounded-4 px-4 py-3 shadow-sm text-center" style="width: 120px;">
-                <div class="mx-auto mb-2 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #ecfcfb; width: 48px; height: 48px;">
+                <div class="mx-auto mb-2 d-flex align-items-center justify-content-center rounded-circle" style="background-color: #fff9eb; width: 48px; height: 48px;">
                   <i class="fi fi-rs-badget-check-alt icon-badge"></i>
                 </div>
                 <div class="fw-bold text-dark fs-4 mb-0">100%</div>
@@ -205,13 +206,13 @@
           <h2 class="fw-bold mb-3 about-text">Discover The <br> Beauty Of Nature</h2>
   
           <div class="d-flex gap-3 mb-3 flex-wrap">
-            <div class="bg-primary-color p-3 rounded flex-fill">
+            <div class="bg-yellow p-3 rounded flex-fill">
               <div class="text-warning fs-4 mb-2">
                 <i class="bi bi-patch-check icon-clor"></i>
               </div>
               <p class="mb-0 small">No Booking Fee <br> Rate Guarantee</p>
             </div>
-            <div class="bg-primary-color p-3 rounded flex-fill">
+            <div class="bg-yellow p-3 rounded flex-fill">
               <div class="text-warning fs-4 mb-2">
                 <i class="bi bi-headset icon-clor"></i>
               </div>
@@ -256,8 +257,8 @@
   <!-- main packages -->
 
   <!-- Featured Tour Section -->
-<section class="section_padding_y text-center ">
-  <p class=" fw-semibold mb-2 highlite-text">Featured Tour</p>
+<section id="packages" class="section_padding_y text-center ">
+  <p class=" fw-semibold mb-2 highlite-text">OUR packages</p>
   <h2 class="fw-bold display-5">Most Popular Tours</h2>
 
   <div class="container mt-5">
@@ -357,7 +358,7 @@
 <section class="popular-destinations section_padding_y text-white" style="background-color: #0a0124;">
   <div class="container">
     <div class="text-center mb-5">
-      <p class="highlite-text mb-2">Top Places</p>
+      <p class="highlite-text mb-2" style="color: #FEC84A !important;">Top Places</p>
       <h2 class="fw-bold display-5">Which services we provide</h2>
     </div>
     <div class="row g-4">
@@ -515,9 +516,9 @@
 <!-- testimonial -->
 
 
-<section class="testimonial-section section_padding_y">
+<section class="testimonial-section section_padding_y" style="background-color: #fff9eb;">
   <div class="container text-center">
-    <p class="text-orange fw-semibold mb-2">Customer’s Feedback</p>
+    <p class="highlite-text fw-semibold mb-2">Customer’s Feedback</p>
     <h2 class="fw-bold display-5 mb-5">What Says Our Visitors</h2>
     <div class="row g-4">
       <!-- Testimonial Card 1 -->
@@ -600,7 +601,7 @@
   <div class="container">
     <div class="d-flex justify-content-between align-items-center mb-4">
       <div>
-        <p class="subtitle mb-1">Best Destination for Visit</p>
+        <p class="subtitle highlite-text mb-1">Blogs</p>
         <h2 class="section-title display-5">Destinations Near You</h2>
       </div>
       <a href="#" class="btn btn-out-line-custom-solid">Read all blogs</a>
@@ -670,9 +671,7 @@
             <input type="email" class="form-control" placeholder="Enter your mail address" required>
             <button type="submit" class="subscribe-btn d-flex align-items-center gap-2">
               Subscribe
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="bi bi-send" viewBox="0 0 16 16">
-                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.5 14a.5.5 0 0 1-.94.034l-2.54-6.926-6.926-2.54a.5.5 0 0 1 .034-.94l14-5.5a.5.5 0 0 1 .762.332z"/>
-              </svg>
+              <i class="fi fi-rs-paper-plane"></i>
             </button>
           </form>
 

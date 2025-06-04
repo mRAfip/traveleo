@@ -3,12 +3,19 @@
   --background-color: #ecfcfb;
   --primary-color: #0E8281;
   --white-color:#fff;
+  --yellow-color : #FEC84A;
+  --bg-yellow: #fff9eb;
 
 }
 .primary-color-text{
 
 
   color: var(--primary-color) !important;
+}
+
+.bg-yellow{
+
+  background-color: var(--bg-yellow);
 }
 
 .section_padding_y{
@@ -18,10 +25,11 @@
 
 .highlite-text{
 
-  color: var(--primary-color) !important;
+  color: var(--yellow-color) !important;
   text-transform: uppercase;
 
 }
+
 
 body {
     background-color: var(--white-color);
@@ -37,6 +45,12 @@ body {
     color: #29223C;
   }
 
+  .social{
+    color: #29223C !important;
+
+    
+  }
+
   @media (max-width: 575.98px) {
     .top-bar {
       display: none !important;
@@ -49,6 +63,8 @@ body {
     display: flex;
     gap: 20px;
   }
+
+
   
   .navbar{
 
@@ -63,6 +79,10 @@ body {
     padding-right: 10px;
     
   }
+
+
+
+
   .brand-icon {
     font-weight: bold;
     font-size: 1.5rem;
@@ -186,8 +206,8 @@ body {
 
   .icon-badge{
 
-    color: var(--primary-color) !important;
-    font-size: 1rem !important;
+    color: #FEC84A !important;
+    font-size: 1.5rem !important;
 
   }
 
@@ -257,19 +277,19 @@ body {
 
 .icon-div{
 
-  background-color: var(--background-color);
+  background-color: var(--bg-yellow);
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
+  color: var(--yellow-color);
 
 }
 
 .icon-clor{
   
-  color: var(--primary-color);
+  color: var(--yellow-color);
 }
 
 .bg-primary-color{
@@ -494,7 +514,7 @@ body {
 }
 
 .testimonial-section {
-  background-color: #fff3ed;
+  background-color: #fff9eb;
 }
 
 .card p::before {
@@ -624,13 +644,13 @@ body {
 }
 
 .subscribe-btn {
-  background-color: var(--primary-color);
+  background-color: var(--yellow-color);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
-  color: white;
+  color: #0A0322;
   font-weight: 600;
-box-shadow: 0 8px 20px rgba(14, 130, 129, 0.4);
+  box-shadow: 0 4px 12px rgba(254, 200, 74, 0.4);
   transition: background 0.3s ease;
 }
 
