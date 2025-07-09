@@ -595,14 +595,14 @@ body {
   background-color: #fff9eb;
 }
 
-.card p::before {
+.testi-para::before {
   content: "“";
   font-size: 2rem;
   color: #f8cfc0;
   margin-right: 0.2em;
 }
 
-.card p::after {
+.testi-para::after {
   content: "”";
   font-size: 2rem;
   color: #f8cfc0;
